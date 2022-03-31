@@ -8,7 +8,7 @@ describe('My First Test', () => {
     it('Does not do much!', () => {
         expect(true).to.equal(true)
 
-        for (let i = 0; i <= 15; i++) {
+        for (let i = 0; i <= 5; i++) {
             cy.visit('https://soundcloud.com/monomente-podcast/goldgrund-037', {
                 headers: {
                     'user-agent': 'Mozilla/5.0 ' + Math.random(),
