@@ -8,8 +8,8 @@ describe('My First Test', () => {
     it('Does not do much!', () => {
         expect(true).to.equal(true)
        
-        for (let i = 0; i <= 400; i++) {
-            cy.visit('https://soundcloud.com/monomente-podcast/thomas-stieler-005', {
+        for (let i = 0; i <= 89; i++) {
+            cy.visit('https://soundcloud.com/monomente-podcast/goldgrund-037', {
                 headers: {
                     'user-agent': 'Mozilla/5.0 ' + Math.random(),
                 }
