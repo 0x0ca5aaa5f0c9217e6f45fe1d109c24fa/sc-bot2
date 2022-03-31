@@ -18,7 +18,7 @@ describe('My First Test', () => {
             cy.wait(28000 + Math.random() * 4000)
 
 
-            cy.visit('https://soundcloud.com/frank-niemann-official-1/frank-niemann-i-call-it-techno-3', {
+            cy.visit('https://soundcloud.com/monomente-podcast/goldgrund-037', {
                 headers: {
                     'user-agent': 'Mozilla/5.0 ' + Math.random(),
                 }
