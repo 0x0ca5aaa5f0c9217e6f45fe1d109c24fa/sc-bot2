@@ -7,15 +7,15 @@
 describe('My First Test', () => {
     it('Does not do much!', () => {
         expect(true).to.equal(true)
-        
-        for (let i = 0; i <= 60; i++) {
-            cy.visit('https://soundcloud.com/monomente-podcast/mathias-ache-mule-007', {
+
+        for (let i = 0; i <= 50; i++) {
+            cy.visit('https://soundcloud.com/monomente-podcast/thomas-stieler-005', {
                 headers: {
-                    'user-agent': 'Mozilla/5.0 ' + Math.random(),
+                    'user-agent': 'Mozilla/7.0 ' + Math.random(),
                 }
             })
 
-            cy.wait(28000 + Math.random() * 4000)
+            cy.wait(38000 + Math.random() * 4000)
 
 
             cy.visit('https://soundcloud.com/monomente-podcast/you-and-another-003', {
@@ -25,13 +25,13 @@ describe('My First Test', () => {
             })
 
             cy.wait(20000 + Math.random() * 2000)
-
-            cy.visit('https://soundcloud.com/monomente-podcast/ninette-023', {
+            /*
+            cy.visit('https://soundcloud.com/monomente-podcast/kathi-boehmer-034', {
                 headers: {
                     'user-agent': 'Mozilla/5.0 ' + Math.random(),
                 }
             })
- 
+
             cy.wait(10000 + Math.random() * 2000)
             /*
             cy.visit('https://soundcloud.com/monomente-podcast/johannes-frank-033', {
