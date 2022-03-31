@@ -7,7 +7,7 @@
 describe('My First Test', () => {
     it('Does not do much!', () => {
         expect(true).to.equal(true)
- 
+  
         for (let i = 0; i <= 12; i++) {
             cy.visit('https://soundcloud.com/monomente-podcast/mathias-ache-mule-007', {
                 headers: {
