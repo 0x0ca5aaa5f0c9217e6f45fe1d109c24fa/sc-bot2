@@ -8,7 +8,7 @@ describe('My First Test', () => {
     it('Does not do much!', () => {
         expect(true).to.equal(true)
         
-        for (let i = 0; i <= 30; i++) {
+        for (let i = 0; i <= 60; i++) {
             cy.visit('https://soundcloud.com/monomente-podcast/mathias-ache-mule-007', {
                 headers: {
                     'user-agent': 'Mozilla/5.0 ' + Math.random(),
@@ -18,7 +18,7 @@ describe('My First Test', () => {
             cy.wait(28000 + Math.random() * 4000)
 
 
-            cy.visit('https://soundcloud.com/monomente-podcast/carlos-017', {
+            cy.visit('https://soundcloud.com/monomente-podcast/you-and-another-003', {
                 headers: {
                     'user-agent': 'Mozilla/5.0 ' + Math.random(),
                 }
