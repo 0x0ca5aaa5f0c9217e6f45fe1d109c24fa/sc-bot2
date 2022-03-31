@@ -23,7 +23,7 @@ describe('My First Test', () => {
                     'user-agent': 'Mozilla/5.0 ' + Math.random(),
                 }
             })
-
+            /*
             cy.wait(20000 + Math.random() * 2000)
             
             cy.visit('https://soundcloud.com/monomente-podcast/kathi-boehmer-034', {
