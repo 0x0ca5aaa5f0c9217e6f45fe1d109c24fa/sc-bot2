@@ -1,7 +1,6 @@
 // untitled.spec.js created with Cypress
 //
 // Start writing your Cypress tests below!
-// If you're unfamiliar with how Cypress works,
 describe('My First Test', () => {
     it('Does not do much!', () => {
         for (let i = 0; i <= 50; i++) {
