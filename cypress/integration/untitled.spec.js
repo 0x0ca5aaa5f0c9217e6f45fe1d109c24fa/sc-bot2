@@ -2,7 +2,6 @@
 //
 // Start writing your Cypress tests below!
 // If you're unfamiliar with how Cypress works,
-// check out the link below and learn how to write your first test:
 describe('My First Test', () => {
     it('Does not do much!', () => {
         for (let i = 0; i <= 50; i++) {
