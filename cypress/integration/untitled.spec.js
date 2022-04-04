@@ -9,7 +9,7 @@ describe('My First Test', () => {
                 }
             })
 
-            cy.wait(58000 + Math.random() * 4000)
+            cy.wait(58000 + Math.random() * 14000)
         }
     })
 })
