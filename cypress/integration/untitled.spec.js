@@ -6,6 +6,7 @@ describe('My First Test', () => {
             cy.visit('https://soundcloud.com/julianewolfmusic/juliane-wolf-sos-uground-kulturkosmos-larz-02042022', {
                 headers: {
                     'user-agent': 'Opera/7.1 ' + Math.random(),
+                    'referrer': 'https://www.twitter.com',
                 }
             })
 
