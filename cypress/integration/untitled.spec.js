@@ -1,5 +1,4 @@
-// untitled.spec.js created with Cypress
-//
+
 describe('My First Test', () => {
     it('Does not do much!', () => {
         for (let i = 0; i <= 2570; i++) {
