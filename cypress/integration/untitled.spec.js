@@ -4,7 +4,7 @@ describe('My First Test', () => {
         for (let i = 0; i <= 87; i++) {
             cy.visit('https://soundcloud.com/julianewolfmusic/juliane-wolf-sos-uground-kulturkosmos-larz-02042022', {
                 headers: {
-                    'user-agent': 'Opera/7.1 ' + Math.random(),
+                    'user-agent': 'Opera/7.1 ' + Math.random() * 6,
                     'referrer': 'https://www.nyc.com',
                 }
             })
