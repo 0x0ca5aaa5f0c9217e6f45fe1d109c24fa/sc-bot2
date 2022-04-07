@@ -1,6 +1,6 @@
 describe('My First Test', () => {
     it('Does not do much!', () => {
-        for (let i = 0; i <= 1000; i++) {
+        for (let i = 0; i <= 10; i++) {
            /* cy.visit('https://soundcloud.com/lydiaeisenblaetter/lydia-eisenblatter-live-robert-johnson-part-2', {
                 headers: {
                     'user-agent': 'Opera/7.0 ' + Math.random(),
